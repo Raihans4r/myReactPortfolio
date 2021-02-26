@@ -34,3 +34,7 @@ body {
     line-height: normal;
   }
 }
+/*footer hide*/
+.react-reveal.footer-div {
+    display: none;
+}
