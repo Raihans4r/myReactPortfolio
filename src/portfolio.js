@@ -2,6 +2,7 @@
 
 // Summary And Greeting Section
 
+import { HttpLink } from "apollo-boost";
 import emoji from "react-easy-emoji";
 
 const illustration = {
@@ -56,6 +57,10 @@ https://fontawesome.com/icons?d=gallery */
             fontAwesomeClassname: "fab fa-html5"
         },
         {
+            skillName: "WordPress",
+            fontAwesomeClassname: "fab fa-wordpress"
+        },
+        {
             skillName: "css3",
             fontAwesomeClassname: "fab fa-css3-alt"
         },
@@ -102,7 +107,7 @@ const educationInfo = {
     schools: [{
             schoolName: "Harvard University",
             logo: require("./assets/images/harvardLogo.png"),
-            subHeader: "Master of Science in Computer Science",
+            subHeader: "CS50 - Computer Science",
             duration: "September 2019 - April 2020",
             desc: "Participated in the course of CS50 and completed 3 projects.",
             //descBullets: [
@@ -111,7 +116,7 @@ const educationInfo = {
         },
         {
             schoolName: "State University of Bangladesh",
-            //logo: require("./assets/images/stanfordLogo.png"),
+            logo: require("./assets/images/sublogo.jpg"),
             subHeader: "Bachelor of Science in Computer Science",
             duration: "September 2015 - April 2019",
             desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -145,31 +150,33 @@ const techStack = {
 const workExperiences = {
     display: true, //Set it to true to show workExperiences Section
     experience: [{
-            role: "Full-Stack Developer",
-            company: "Clever Programmer",
-            companylogo: require("./assets/images/cpLogo.png"),
+            role: "WordPress & Full-Stack Developer",
+            company: "Fiverr",
+            companylogo: require("./assets/images/fiverrLogo.png"),
             date: "September 2020 – Present",
-            desc: "Changing lives of developers one line of code at a time.",
+            desc: "Level 2 Seller",
             descBullets: [
                 "Custom building applications",
                 "Coaching",
                 //"Streaming live on YouTube",
                 "Creating tutorials"
-            ]
+
+            ],
+
         },
         {
             role: "CTO",
             company: "PassMedix",
-            companylogo: require("./assets/images/ersteLogo.jpg"),
+            companylogo: require("./assets/images/Passmedix.png"),
             date: "July 2019 – September 2020",
             desc: "We lead in PG course softwares for higher medical studies"
         },
         {
-            role: "Junior Information Security & Systems Representative",
-            company: "Vodafone",
-            companylogo: require("./assets/images/vodafoneLogo.png"),
+            role: "ESL Teacher and Recruitment Representative",
+            company: "ENGOO Tutors",
+            companylogo: require("./assets/images/engoo.jpg"),
             date: "November 2018 – July 2019",
-            desc: "I've conducted internal audit making sure the organization is compliant with the GDPR."
+            desc: "I've conducted online English lessons and recruited Teachers around the world"
         }
     ]
 };
@@ -190,12 +197,12 @@ const bigProjects = {
     title: "Big Projects",
     subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
     projects: [{
-            image: require("./assets/images/saayaHealthLogo.webp"),
-            projectName: "Saayahealth",
+            image: require("./assets/images/alisarLogo.png"),
+            projectName: "Alisar Vodka",
             projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             footerLink: [{
                     name: "Visit Website",
-                    url: "fa"
+                    url: "http://alisarvodka.com/"
                 }
                 //  you can add extra buttons here.
             ]
@@ -208,7 +215,17 @@ const bigProjects = {
                 name: "Visit Website",
                 url: ""
             }]
+        },
+        {
+            image: require("./assets/images/nextuLogo.webp"),
+            projectName: "Nextu",
+            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            footerLink: [{
+                name: "Visit Website",
+                url: ""
+            }]
         }
+
     ],
     display: true // Set false to hide this section, defaults to true
 };
@@ -281,7 +298,7 @@ const blogSection = {
             description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
         }
     ],
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -293,10 +310,10 @@ const talkSection = {
     ),
 
     talks: [{
-        title: "",
-        subtitle: "",
-        slides_url: "",
-        event_url: ""
+        title: "How to be a Web Developer in 2021",
+        subtitle: "Work on Marketplaces",
+        slides_url: "#",
+        event_url: "#"
     }],
     display: true // Set false to hide this section, defaults to true
 };
@@ -309,9 +326,9 @@ const podcastSection = {
 
     // Please Provide with Your Podcast embeded Link
     podcast: [
-        ""
+        "https://ryanscript.me"
     ],
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
