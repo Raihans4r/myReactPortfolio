@@ -292,9 +292,18 @@ const blogSection = {
     subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
     blogs: [{
-            url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-            title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-            description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+            url: "https://www.fiverr.com/ryandevv/wordpress-responsive-website-design-business-ecommerce",
+            title: "Hire me right now for your business or startup website",
+            description: "Do you want to have your website built within a week? Need help with WordPress or any other projects? ",
+            footerLink: [{
+                    name: "Hire Me!",
+                    url: "https://www.fiverr.com/ryandevv/wordpress-responsive-website-design-business-ecommerce"
+                },
+                {
+                    name: "WordPress Projects",
+                    url: "http://ryandevv.zfreehost.xyz"
+                },
+            ]
         },
         {
             url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
