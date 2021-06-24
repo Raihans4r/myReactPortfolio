@@ -254,7 +254,7 @@ const achievementSection = {
         },
         {
             title: "React - Frontend Masters",
-            subtitle: "I've completed React core coursework from Frontend Masters. React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+            subtitle: "I've completed React core coursework from Frontend Masters. React makes it painless to create interactive UIs. Design simple views for each state in your application.",
             image: require("./assets/images/frontendMasters.png"),
             footerLink: [{
                     name: "Certification",
