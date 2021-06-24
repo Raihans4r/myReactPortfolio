@@ -11,9 +11,9 @@ const illustration = {
 
 const greeting = {
     username: "Ryanscript",
-    title: "Hi! I am Ryan!",
+    title: "Hi! I'm Ryan!",
     subTitle: emoji(
-        "A passionate Full Stack Web Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+        "A passionate Full Stack Web Developer 🚀 from Dhaka, Bangladesh having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
     ),
     resumeLink: "https://drive.google.com/file/d/1Y_r26RIXjGrOLQj9_jneNroRiGRmrQUy/view?usp=sharing",
     displayGreeting: true // Set false to hide this section, defaults to true
@@ -29,7 +29,7 @@ const socialMediaLinks = {
     facebook: "https://www.facebook.com/raihanl2",
     //medium: "https://medium.com/@davidrakosi",
     //stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-    instagram: 'https://www.instagram.com/thejsfactory/',
+    instagram: 'https://www.instagram.com/ryanscript.me/',
     //twitter: 'https://twitter.com/davidrakosi_',
     display: true // Set true to display this section, defaults to false
 };
