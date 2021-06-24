@@ -208,7 +208,7 @@ const bigProjects = {
             ]
         },
         {
-            image: require("./assets/images/nextuLogo.webp"),
+            image: require("./assets/images/tbok.png"),
             projectName: "Nextu",
             projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             footerLink: [{
@@ -217,7 +217,7 @@ const bigProjects = {
             }]
         },
         {
-            image: require("./assets/images/nextuLogo.webp"),
+            image: require("./assets/images/tennisFix.png"),
             projectName: "Nextu",
             projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             footerLink: [{
