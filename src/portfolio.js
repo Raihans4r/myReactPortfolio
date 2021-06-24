@@ -240,7 +240,7 @@ const achievementSection = {
     achievementsCards: [{
             title: "Google Code-In Finalist",
             subtitle: "Selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-            image: require("./assets/images/codeInLogo.webp"),
+            image: require("./assets/images/treehouse.png"),
             footerLink: [{
                     name: "Certification",
                     url: ""
@@ -258,7 +258,7 @@ const achievementSection = {
         {
             title: "Google Assistant Action",
             subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-            image: require("./assets/images/googleAssistantLogo.webp"),
+            image: require("./assets/images/frontendMasters.png"),
             footerLink: [{
                 name: "View Google Assistant Action",
                 url: ""
@@ -268,7 +268,7 @@ const achievementSection = {
         {
             title: "PWA Web App Developer",
             subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-            image: require("./assets/images/pwaLogo.webp"),
+            image: require("./assets/images/datacamp.png"),
             footerLink: [
                 { name: "Certification", url: "" },
                 {
