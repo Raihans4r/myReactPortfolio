@@ -238,43 +238,47 @@ const achievementSection = {
     subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
     achievementsCards: [{
-            title: "Google Code-In Finalist",
-            subtitle: "Selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+            title: "Full Stack JavaScript - Treehouse",
+            subtitle: "I have learnt to build interactive websites and powerful web applications with the most popular full stack programming language. Completed 10 projects within 3 months of bootcamp",
             image: require("./assets/images/treehouse.png"),
             footerLink: [{
                     name: "Certification",
                     url: ""
                 },
                 {
-                    name: "Award Letter",
+                    name: "Projects",
                     url: ""
                 },
-                {
-                    name: "Google Code-in Blog",
-                    url: ""
-                }
+                
             ]
         },
         {
-            title: "Google Assistant Action",
-            subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+            title: "React - Frontend Masters",
+            subtitle: "I've completed React core coursework from Frontend Masters. React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
             image: require("./assets/images/frontendMasters.png"),
             footerLink: [{
-                name: "View Google Assistant Action",
-                url: ""
-            }]
+                    name: "Certification",
+                    url: ""
+                },
+                {
+                    name: "Projects",
+                    url: ""
+                },
+            ]
         },
 
         {
-            title: "PWA Web App Developer",
-            subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+            title: "Data Engineering - Datacamp",
+            subtitle: "Completed Certifcation from Datacamp on data engineering. I have a acquired the aspect of data science that focuses on practical applications of data collection and analysis.",
             image: require("./assets/images/datacamp.png"),
-            footerLink: [
-                { name: "Certification", url: "" },
-                {
-                    name: "Final Project",
+            footerLink: [{
+                    name: "Certification",
                     url: ""
-                }
+                },
+                {
+                    name: "Projects",
+                    url: ""
+                },
             ]
         }
     ],
@@ -298,7 +302,7 @@ const blogSection = {
             description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
         }
     ],
-    display: false // Set false to hide this section, defaults to true
+    display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -342,7 +346,7 @@ const contactInfo = {
 
 const twitterDetails = {
     userName: "ryandevv_", //Replace "twitter" with your twitter username without @
-    display: true // Set true to display this section, defaults to false
+    display: false // Set true to display this section, defaults to false
 };
 
 export {
