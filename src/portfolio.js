@@ -199,7 +199,7 @@ const bigProjects = {
     projects: [{
             image: require("./assets/images/alisarLogo.png"),
             projectName: "Alisar Vodka",
-            projectDesc: "<ul><li>An eCommerce Website</li><li>Built on WordPress</li></ul>",
+            projectDesc: `<ul><li>An eCommerce Website</li><li>Built on WordPress</li></ul>`,
             footerLink: [{
                     name: "Visit Website",
                     url: "http://alisarvodka.com/"
