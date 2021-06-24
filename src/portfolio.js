@@ -199,7 +199,7 @@ const bigProjects = {
     projects: [{
             image: require("./assets/images/alisarLogo.png"),
             projectName: "Alisar Vodka",
-            projectDesc: `<ul><li>An eCommerce Website</li><li>Built on WordPress</li></ul>`,
+            projectDesc: "An eCommerce Website built on WordPress",
             footerLink: [{
                     name: "Visit Website",
                     url: "http://alisarvodka.com/"
@@ -210,7 +210,7 @@ const bigProjects = {
         {
             image: require("./assets/images/tbok.png"),
             projectName: "TBoK",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            projectDesc: "An eCommerce website with consultation",
             footerLink: [{
                 name: "Visit Website",
                 url: "http://tbokconsulting.com/"
@@ -219,7 +219,7 @@ const bigProjects = {
         {
             image: require("./assets/images/tennisFix.png"),
             projectName: "TennisFix",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            projectDesc: "Tennis Fix System",
             footerLink: [{
                 name: "Visit Website",
                 url: "https://tennisfix.net/"
