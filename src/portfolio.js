@@ -209,20 +209,20 @@ const bigProjects = {
         },
         {
             image: require("./assets/images/tbok.png"),
-            projectName: "Nextu",
+            projectName: "TBoK",
             projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             footerLink: [{
                 name: "Visit Website",
-                url: ""
+                url: "http://tbokconsulting.com/"
             }]
         },
         {
             image: require("./assets/images/tennisFix.png"),
-            projectName: "Nextu",
+            projectName: "TennisFix",
             projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             footerLink: [{
                 name: "Visit Website",
-                url: ""
+                url: "https://tennisfix.net/"
             }]
         }
 
